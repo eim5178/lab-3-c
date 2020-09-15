@@ -18,9 +18,9 @@ int sum_n(int n){
   }
 }
 
-void print_n(char *s, int n){
+void print_n(const char *s, int n){
   if (n<=1){
-    printf("%s",s);
+    printf("%s\n",s);
   }
   else {
     printf("%s\n",s);
@@ -30,6 +30,6 @@ void print_n(char *s, int n){
 int main(void) {
   int n = atof(readline("Enter an int: "));
   printf("sum is %d", sum_n(n));
-  char *s = readline("Enter a string: ");
+  const char *s = readline("Enter a string: ");
   return 0;
 }
