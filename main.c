@@ -23,13 +23,13 @@ void print_n(const char *s, int n){
     printf("%s",s);
   }
   else {
-    printf("%s",s);
+    printf("%s\n",s);
     n = n-1;
   }
 }
 int main(void) {
   int n = atof(readline("Enter an int: "));
-  char *s = readline("Enter a string: ");
   printf("sum is %d", sum_n(n));
+  char *s = readline("Enter a string: ");
   return 0;
 }
