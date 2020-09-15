@@ -1,4 +1,4 @@
-// Author: Evelyn Moore
+// Author: Evelyn Moore eim5178@psu.edu
 // Collaborator:
 // Collaborator:
 // Collaborator:
